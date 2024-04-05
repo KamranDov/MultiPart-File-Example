@@ -25,7 +25,7 @@ public class FileUploadUtil {
     private FileUploadUtil() {
         allowedMimeTypes.add("image/jpeg");
         allowedMimeTypes.add("image/png");
-        allowedMimeTypes.add("image/pdf");
+        allowedMimeTypes.add("application/pdf");
 
         Path path = Path.of(PATH.toUri());
         if (!Files.exists(path)) {
